@@ -2,6 +2,10 @@
     --default-font-family:font-family: 'Noto Serif', serif;
 }
 
+body{
+    background-image: url("/media/windowbackground.jpg");
+    background-size: cover;
+}
 
 h1 {
   text-align: center;
