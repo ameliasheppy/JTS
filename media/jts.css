@@ -21,7 +21,7 @@ h2{
     font-size: 32px;
     font-weight: bolder;
 }
-p{
+p, ul{
     margin-left: -12px;
      background-color: #a6bcb3;
     font-size: 20px;
