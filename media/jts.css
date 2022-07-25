@@ -1,10 +1,10 @@
 :root{
     --default-font-family:font-family: 'Noto Serif', serif;
+    --main-branding-color: #4c7451;
 }
 
 body{
     background-color: #FFF8F4;
-    
 }
 h1, h2, p{
 text-align: center;
@@ -31,11 +31,14 @@ p, ul{
 video{
     padding-right: 20px;
 }
+img{
+   background-size: cover; 
+}
 .header{
     height: 100vh;
     width: 100%;
     padding: 0 8%;
-    background-color: blue;
+    background-color: rgb(233, 249, 233);
     position: relative;
 }
 nav{
@@ -73,7 +76,7 @@ nav{
     width: 100%;
 }
 .btn{
-    background-color: red;
+    background-color: #4c7451;
     color: #fff;
     padding: 10px 30px;
     border-radius: 3px;
@@ -111,7 +114,7 @@ nav{
     font-size: 18px;
 }
 .content form button{
-    background-color: #ff3d00;
+    background-color: var(--main-branding-color);
     color: #fff;
     padding: 15px 40px;
     border: none;
@@ -123,6 +126,7 @@ nav{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+
 }
 .category{
     width: 80px;
@@ -134,24 +138,20 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 .category img{
     width: 25px;
     margin-bottom: 5px;
 }
-
+#categorywords{
+    color:white;
+    padding-left: 35px;
+}
 #drops{
       background-image: url("/media/windowbackground.jpg");
     background-size: cover;
     font-weight: bolder;
-}
-.back-video{
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    max-width: 1080px;
-    max-height: 1200px;
 }
 @media(max-width: 480px){
     h1{
